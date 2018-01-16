@@ -1,9 +1,8 @@
 // create secretNumber
 var secretNumber = 4;
 //as user for guess
-var guess = prompt("Guess a number");
-alert(guess);
-
+var stringGuess = prompt("Guess a number");
+var guess = Number(stringGuess);
 
 //check if guess ir right 
 if (guess == secretNumber) {
